@@ -11,12 +11,7 @@ const assertArrayEqual = function (arr1,arr2) {
     console.log("false")
   }
 }
-const eqArrays = function (arr1,arr2) {
-  for (i=0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i])
-    return false
-  } return true
-}
+
 const middle = function(array) {}
   let result = []; 
   let middle = Math.floor(array.length / 2)
@@ -29,3 +24,5 @@ const middle = function(array) {}
   else {
     result.push(array[middle - 1])
     result.push(array[middle]) }
+
+    module.exports = middle;

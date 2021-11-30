@@ -12,7 +12,7 @@ const assertArrayEqual = function (arr1,arr2) {
   }
 }
 
-const middle = function(array) {}
+const middle = function(array) {
   let result = []; 
   let middle = Math.floor(array.length / 2)
 
@@ -24,5 +24,6 @@ const middle = function(array) {}
   else {
     result.push(array[middle - 1])
     result.push(array[middle]) }
+  }
 
     module.exports = middle;

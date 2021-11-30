@@ -26,3 +26,4 @@ const assertObjectsEqual = function(inputObject, expectedObject) {
   }
 };
 
+module.exports = assertObjectsEqual

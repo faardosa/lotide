@@ -36,3 +36,5 @@ const countLetter = function(str,char){
   return counter
 }
 countLetters("letters")
+
+module.exports = countLetters
